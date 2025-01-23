@@ -1,0 +1,11 @@
+name: llama_azure
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip>=23.0
+  - requests>=2.31.0
+  - python-dotenv>=1.0.0
+  - pip:
+    - typing-extensions>=4.5.0
